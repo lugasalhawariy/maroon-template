@@ -1,0 +1,49 @@
+.navbar-maroon {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    // box-shadow: 0px 0px 2px #530000;
+    z-index: 100;
+    margin-top: 0;
+    background: transparent !important;
+    @include media-breakpoint-down(md) {
+        margin-top: 0;
+        background-color: #920000 !important;
+    }
+    // untuk mobile
+    .navbar-nav {
+        z-index: 100;
+        .nav-item {
+            margin-left: 5px;
+            text-align: center;
+            .nav-link {
+                color: white !important;
+                padding-top: 10px;
+                @include media-breakpoint-up(lg) {
+                    margin-left: 10px;
+                    margin-right: 10px;
+                }
+            }
+            &.active {
+                .nav-link {
+                    color: #DBEE00 !important;
+                }
+            }
+        }
+        .btn-login {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            border-radius: 50px !important;
+            @include media-breakpoint-up(lg) {
+                margin-left: 10px;
+                margin-right: 10px;
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.navbar-fixed-top.scrolled {
+    background-color: #920000 !important;
+    transition: background-color 200ms linear;
+}

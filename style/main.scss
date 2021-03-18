@@ -1,0 +1,15 @@
+@import "../vendor/bootstrap/scss/bootstrap.scss";
+// utama
+@import "global";
+@import "fonts";
+@import "navbar";
+// pages
+@import "pages/home";
+// component
+@import "component/carousel";
+@import "component/videos";
+@import "component/activity";
+@import "component/review";
+@import "component/pk";
+@import "component/animation";
+@import "component/effort";

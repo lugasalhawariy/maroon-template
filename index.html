@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Maroon - Frontend</title>
+
+        <!-- css and aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        <link href="style/main.css" rel="stylesheet" />
+
+        <!-- slick -->
+        <link rel="stylesheet" type="text/css" href="/vendor/slick/slick/slick.css" />
+        <link rel="stylesheet" type="text/css" href="/vendor/slick/slick/slick-theme.css" />
+    </head>
+
+    <body>
+        <!-- start:nav -->
+        <nav class="navbar navbar-expand-lg navbar-light navbar-maroon fixed-top navbar-fixed-top" data-aos="fade-down">
+            <div class="container">
+                <a class="navbar-brand my-0 py-0" href="#">
+                    <img src="/image/logo-IMM.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kegiatan</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Kader</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tentang</a>
+                        </li>
+                        <!-- login for desktop -->
+                        <li class="nav-item d-none d-lg-block my-auto">
+                            <a href="" class="btn btn-dark px-3 btn-login">Masuk</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end:nav -->
+
+        <!-- start:header (carousel & videos) -->
+        <div class="section-header" data-aos="zoom-in">
+            <!-- start:carousel -->
+            <div class="d-flex">
+                <div class="carousel-maroon d-lg-flex">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="/image/carousel-4.jpg" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/image/carousel-2.jpg" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="/image/carousel-3.jpg" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="videos-maroon d-lg-flex d-none">
+
+                </div>
+            </div>
+            <!-- end:carousel -->
+
+        </div>
+        <!-- end:header -->
+
+        <!-- start:page-content -->
+
+        <div class="page-content p-0">
+            <div class="container">
+                <!-- start:activity component -->
+                <div class="section-activity" data-aos="fade-down">
+                    <h2>Kegiatan</h2>
+                    <div class="row">
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <a class="component-activities d-block" href="/details.html">
+                                <div class="activities-thumbnail">
+                                    <div class="activities-image" style="background-image: url('/image/activity-2.jpg');"></div>
+                                </div>
+                                <div class="activities-text text-truncate">
+                                    Nyeruput Keilmuan
+                                </div>
+                                <div class="activities-price">
+                                    Sabtu, 20 Februari 2021
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+                            <a class="component-activities d-block" href="/details.html">
+                                <div class="activities-thumbnail">
+                                    <div class="activities-image" style="background-image: url('/image/activity-1.jpg');"></div>
+                                </div>
+                                <div class="activities-text text-truncate">
+                                    Diskusi Teknologi
+                                </div>
+                                <div class="activities-price">
+                                    Senin, 2 Maret 2021
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+                            <a class="component-activities d-block" href="/details.html">
+                                <div class="activities-thumbnail">
+                                    <div class="activities-image" style="background-image: url('/image/activity-4.jpg');"></div>
+                                </div>
+                                <div class="activities-text text-truncate">
+                                    Futsal Bersama Alumni
+                                </div>
+                                <div class="activities-price">
+                                    Rabu, 19 Maret 2021
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+                            <a class="component-activities d-block" href="/details.html">
+                                <div class="activities-thumbnail">
+                                    <div class="activities-image" style="background-image: url('/image/activity-3.jpg');"></div>
+                                </div>
+                                <div class="activities-text text-truncate">
+                                    Seminar: Menjadi Seorang Bisnis-Men!
+                                </div>
+                                <div class="activities-price">
+                                    Jumat, 20 April 2021
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end:activity component -->
+            </div>
+
+
+            <!-- start:review component -->
+            <div class="section-review">
+                <!-- start:review for desktop -->
+                <div class="row container-fluid review-class d-none d-lg-block" data-aos="fade-up">
+                    <div class="col-12 text-center">
+                        <div class="review-thumbnail">
+                            <div class="review-image" style="background-image: url('/image/activity-1.jpg');"></div>
+                        </div>
+                        <div class="review-name text-truncate">
+                            Shintia Jessic
+                        </div>
+                        <div class="review-position">
+                            <h6><span class="badge badge-pill badge-warning p-2">Teknologi Pangan, 2016</span></h6>
+                        </div>
+                        <div class="review-quote">
+                            <p>
+                                Kalau aku tidak ada di saat dia menderita, aku tidak pantas lagi disebut sebagai temannya.
+                            </p>
+                            <footer class="blockquote-footer text-white">Someone famous in <cite title="Source Title">One Piece</cite></footer>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="review-thumbnail">
+                            <div class="review-image" style="background-image: url('/image/profile.jpg');"></div>
+                        </div>
+                        <div class="review-name text-truncate">
+                            Bakuna Bakaka Misako
+                        </div>
+                        <div class="review-position">
+                            <h6><span class="badge badge-pill badge-warning p-2">Teknik Informatika, 2018</span></h6>
+                        </div>
+                        <div class="review-quote">
+                            <p>
+                                だからこれは...私は実際に私を嫌っている誰かを本当に尊敬しています、私は私が無視されたのにこの気持ちを続けるべきか、それとも私はただあきらめるべきか...私を助けてください！ wkowkok
+                            </p>
+                            <footer class="blockquote-footer text-white">Someone famous in <cite title="Source Title">Sadboy</cite></footer>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <div class="review-thumbnail">
+                            <div class="review-image" style="background-image: url('/image/profile-2.jpg');"></div>
+                        </div>
+                        <div class="review-name text-truncate">
+                            Violet Mutia Ulfa
+                        </div>
+                        <div class="review-position">
+                            <h6><span class="badge badge-pill badge-warning p-2">Teknik Kimia, 2020</span></h6>
+                        </div>
+                        <div class="review-quote">
+                            <p>
+                                Bunga yang kau siram nanti akhirnya akan layu, mungkin terdengar sia-sia. Namun... usahamu dalam merawatnya lah yang memberikan pelajaran agar kamu terus berusaha dan tersia-siakan. Bwahahah!
+                            </p>
+                            <footer class="blockquote-footer text-white">Someone famous in <cite title="Source Title">Prodi Teknik Kimia</cite></footer>
+                        </div>
+                    </div>
+                </div>
+                <!-- end:review for desktop -->
+
+                <!-- start:review for mobile -->
+                <div class="container mt-3 pt-4 d-lg-none">
+                    <h2>Review</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-12 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <blockquote class="blockquote text-left review-mobile-quote">
+                                        <p class="mb-0">
+                                            "Saya sangat senang bisa bermain pasir bersama IMM, terutama pasir yang panas. Itu melelahkan!"
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="review-mobile-thumbnail d-inline-flex text-left">
+                                                <div class="review-mobile-image" style="background-image: url('/image/activity-1.jpg');"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 my-auto">
+                                            <div class="review-mobile-name">
+                                                Shintia Jessic
+                                            </div>
+                                            <div class="review-mobile-position text-muted">
+                                                Teknologi Pangan, 2016
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <blockquote class="blockquote text-left review-mobile-quote">
+                                        <p class="mb-0">
+                                            "Setelah saya melakukan push-up 10x di damar, perut saya tidak bisa berhenti lapar."
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="review-mobile-thumbnail d-inline-flex text-left">
+                                                <div class="review-mobile-image" style="background-image: url('/image/profile-1.jpg');"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 my-auto">
+                                            <div class="review-mobile-name">
+                                                Hac Ronney. K
+                                            </div>
+                                            <div class="review-mobile-position text-muted">
+                                                Teknik Industri, 2015
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-12 my-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <blockquote class="blockquote text-left review-mobile-quote">
+                                        <p class="mb-0">
+                                            "Saat ini IMM menjadi sebuah organisasi yang cukup baik pergerakannya dalam berbagai bidang, seperti sosial, pendidikan, ekonomi bahkan teknologi. Saya pikir IMM harus terus berkembang untuk kemajuan umat."
+                                        </p>
+                                    </blockquote>
+                                </div>
+                                <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <div class="review-mobile-thumbnail d-inline-flex text-left">
+                                                <div class="review-mobile-image" style="background-image: url('/image/profile-6.jpg');"></div>
+                                            </div>
+                                        </div>
+                                        <div class="col-9 my-auto">
+                                            <div class="review-mobile-name">
+                                                Hellen Doit
+                                            </div>
+                                            <div class="review-mobile-position text-muted">
+                                                Teknik Elektro, 2017
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end:review for mobile -->
+            </div>
+            <!-- end:review component -->
+
+            <!-- start:PK component -->
+            <div class="section-PK d-none d-lg-block">
+                <div class="row container-fluid PK-class">
+                    <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="100">
+                        <div class="PK-thumbnail">
+                            <div class="PK-image" style="background-image: url('/image/profile-1.jpg');"></div>
+                        </div>
+                        <div class="PK-name text-truncate">
+                            Harry Gregoria
+                            <footer class="blockquote-footer text-position">sebagai <cite title="Source Title">Ketua</cite></footer>
+                        </div>
+
+                    </div>
+                    <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="200">
+                        <div class="PK-thumbnail">
+                            <div class="PK-image" style="background-image: url('/image/profile-2.jpg');"></div>
+                        </div>
+                        <div class="PK-name text-truncate">
+                            Violet Mutia Ulfa
+                            <footer class="blockquote-footer text-position">sebagai <cite title="Source Title">Sekretaris</cite></footer>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="300">
+                        <div class="PK-thumbnail">
+                            <div class="PK-image" style="background-image: url('/image/profile-3.jpg');"></div>
+                        </div>
+                        <div class="PK-name text-truncate">
+                            Milenia Aisyah
+                            <footer class="blockquote-footer text-position">sebagai <cite title="Source Title">Bendahara</cite></footer>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+                        <div class="PK-thumbnail">
+                            <div class="PK-image" style="background-image: url('/image/profile-4.jpg');"></div>
+                        </div>
+                        <div class="PK-name text-truncate">
+                            Kazuma Antonnio
+                            <footer class="blockquote-footer text-position">sebagai <cite title="Source Title">Kabid RPK</cite></footer>
+                        </div>
+                    </div>
+                    <div class="col-12 text-center" data-aos="fade-up" data-aos-delay="400">
+                        <div class="PK-thumbnail">
+                            <div class="PK-image" style="background-image: url('/image/profile-5.jpg');"></div>
+                        </div>
+                        <div class="PK-name text-truncate">
+                            Karman Neil'O
+                            <footer class="blockquote-footer text-position">sebagai <cite title="Source Title">Kabid Hikmah</cite></footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end:PK component -->
+
+            <!-- start:btn-to-structure-imm -->
+            <div class="btn-to-structure-imm d-lg-none d-block container-fluid">
+                <a href="#" class="btn btn-sm btn-danger">
+                    Klik untuk melihat Struktur Organisasi
+                </a>
+            </div>
+            <!-- end:btn-to-structure-imm -->
+
+            <!-- start:effort component -->
+            <div class="section-effort mt-0">
+                <div class="container-fluid text-center">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-3 py-3 px-4 mx-0" style="background-color: #8D0099;">
+                            <div class="effort-body text-white" style="font-weight: 600;">
+                                5000
+                            </div>
+                            <div class="effort-title text-white-50" style="font-weight: lighter;">
+                                Kader
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 py-3 px-4 mx-0" style="background-color: #C5A01D;">
+                            <div class="effort-body text-white" style="font-weight: 600;">
+                                24
+                            </div>
+                            <div class="effort-title text-white-50" style="font-weight: lighter;">
+                                PK 2021
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 py-3 px-4 mx-0" style="background-color: #006980;">
+                            <div class="effort-body text-white" style="font-weight: 600;">
+                                100
+                            </div>
+                            <div class="effort-title text-white-50" style="font-weight: lighter;">
+                                Karya
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-3 py-3 px-4 mx-0" style="background-color: #009444;">
+                            <div class="effort-body text-white" style="font-weight: 600;">
+                                800
+                            </div>
+                            <div class="effort-title text-white-50" style="font-weight: lighter;">
+                                Kegiatan
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end:effort component -->
+
+            <br><br><br><br>
+        </div>
+
+        <!-- end:page-content -->
+
+        <!-- Bootstrap core JavaScript -->
+        <script src="/vendor/jquery/jquery.slim.min.js"></script>
+        <script src="/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script src="/script/navbar-scroll.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+        <!-- vue.js -->
+
+        <!-- slick js -->
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="/vendor/slick/slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.review-class').slick({
+                    dots: true,
+                    autoplay: true,
+                    autoplaySpeed: 2000,
+                    arrows: false,
+                });
+            });
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.PK-class').slick({
+                    // dots: true,
+                    speed: 300,
+                    slidesToShow: 4,
+                    centerMode: true,
+                    arrows: false
+                });
+            });
+        </script>
+    </body>
+
+</html>

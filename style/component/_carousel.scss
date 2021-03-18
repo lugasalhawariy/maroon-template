@@ -1,0 +1,16 @@
+.carousel-maroon {
+    width: 70%;
+    margin: 0 auto;
+    padding: 0;
+    @include media-breakpoint-down(md) {
+        width: 100%;
+        margin-top: 58px;
+        img {
+            height: 250px !important;
+        }
+    }
+    margin-top: -70px;
+    img {
+        height: 500px;
+    }
+}
