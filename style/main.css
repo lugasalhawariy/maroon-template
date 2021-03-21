@@ -11221,3 +11221,55 @@ body {
   }
 }
 /*# sourceMappingURL=main.css.map */
+
+/* nambah karya dan blog kader section */
+.cardKarya {
+  border: none;
+}
+
+.cardKarya > .card-body > .card-title {
+  padding-left: 0px;
+}
+
+.cardKarya > .card-body > .card-text > .author {
+  color: #9E0000;
+}
+
+.cardKarya > .card-body > .card-text > .type {
+  color: #3E00EE;
+  font-size: 12px;
+  float: right;
+  margin-top: 5px;
+}
+
+
+/* nambah info IMM */
+.infoIMM > .container-fluid > .m-4 > .row > .col-lg-3 > div > p {
+  color: #000000;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.infoIMM > .container-fluid > .m-4 > .row > .col-lg-3 > div > .head {
+  color: #9E0000;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.infoIMM > .container-fluid > .m-4 > .row > .col-lg-2 > .img-info {
+  float: right;
+}
+
+/* nambah imm footer */
+.imm-footer {
+  background-color: #9E0000;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.imm-footer > p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
