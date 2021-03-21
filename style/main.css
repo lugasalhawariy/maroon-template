@@ -10892,6 +10892,44 @@ body {
   transition: background-color 200ms linear;
 }
 
+.section-info-imm {
+  margin-top: 50px;
+}
+
+.section-info-imm .head-info-imm {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #580000;
+}
+
+.section-info-imm .text-info-imm {
+  text-decoration: none;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  color: black;
+}
+
+.section-info-imm .text-info-imm:hover, .section-info-imm .text-info-imm:focus {
+  text-decoration: none;
+  font-size: large;
+  color: #cccccc;
+}
+
+.section-imm-footer {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
+}
+
 .carousel-maroon {
   width: 70%;
   margin: 0 auto;
@@ -11220,56 +11258,59 @@ body {
             transform: translate(20px, 10px) scale(1.1);
   }
 }
-/*# sourceMappingURL=main.css.map */
 
-/* nambah karya dan blog kader section */
-.cardKarya {
+.section-blog-imm {
+  margin-top: 50px;
+}
+
+.section-blog-imm .head-blog-imm {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  color: #570000;
+}
+
+.section-blog-imm .wrapper-card-blog {
+  margin: 0 !important;
+}
+
+.section-blog-imm .wrapper-card-blog .card-karya {
   border: none;
+  margin-top: 10px;
 }
 
-.cardKarya > .card-body > .card-title {
-  padding-left: 0px;
+.section-blog-imm .wrapper-card-blog .card-karya .card-body {
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 10px;
 }
 
-.cardKarya > .card-body > .card-text > .author {
-  color: #9E0000;
-}
-
-.cardKarya > .card-body > .card-text > .type {
-  color: #3E00EE;
-  font-size: 12px;
-  float: right;
-  margin-top: 5px;
-}
-
-
-/* nambah info IMM */
-.infoIMM > .container-fluid > .m-4 > .row > .col-lg-3 > div > p {
-  color: #000000;
+.section-blog-imm .wrapper-card-blog .card-karya .card-body .card-title {
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
-.infoIMM > .container-fluid > .m-4 > .row > .col-lg-3 > div > .head {
-  color: #9E0000;
+.section-blog-imm .wrapper-card-blog .card-karya .card-body .author {
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 600;
   font-size: 16px;
+  line-height: 17px;
+  color: #9E0000;
 }
 
-.infoIMM > .container-fluid > .m-4 > .row > .col-lg-2 > .img-info {
-  float: right;
-}
-
-/* nambah imm footer */
-.imm-footer {
-  background-color: #9E0000;
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-.imm-footer > p {
-  color: #ffffff;
-  font-size: 14px;
+.section-blog-imm .wrapper-card-blog .card-karya .card-body .type {
+  font-family: Montserrat;
+  font-style: normal;
   font-weight: 300;
-  text-align: center;
+  font-size: 14px;
+  line-height: 15px;
+  text-align: right;
+  color: #3E00EE;
 }
+/*# sourceMappingURL=main.css.map */

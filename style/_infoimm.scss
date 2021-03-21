@@ -1,0 +1,26 @@
+.section-info-imm {
+    margin-top: 50px;
+    .head-info-imm {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: rgba(88, 0, 0, 1);
+    }
+    .text-info-imm {
+        text-decoration: none;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+        color: rgba(0, 0, 0, 1);
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            font-size: large;
+            color: lighten($color: #000000, $amount: 80%);
+        }
+    }
+}
