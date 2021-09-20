@@ -62,3 +62,17 @@
         }
     }
 }
+
+.btn-to-structure-imm {
+    display: none;
+    width: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 1000px;
+    background-color: #292929;
+    z-index: 100;
+
+    a {
+        border-radius: 0;
+    }
+}

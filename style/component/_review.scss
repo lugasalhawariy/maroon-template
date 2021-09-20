@@ -8,7 +8,7 @@
         color: #FFFFFF;
     }
     @include media-breakpoint-down(md) {
-        height: 100vh;
+        height: max-content;
     }
     margin-top: 50px;
     height: 100%;
