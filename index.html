@@ -75,14 +75,34 @@
                         </a>
                     </div>
                 </div>
-                <div class="videos-maroon d-lg-flex d-none">
-
+                <div class="videos-maroon d-lg-flex d-none justify-content-center align-items-center">
+                    <button type="button" class="btn" data-toggle="modal" data-target="#modalVideo">
+                        <img class="play-video" src="/image/play.svg" alt="">
+                    </button>
                 </div>
+                <div id="latihan" class="bg-primary w-100" hidden></div>
             </div>
             <!-- end:carousel -->
-
         </div>
         <!-- end:header -->
+
+        <!-- modal video -->
+        <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content p-0 m-0 border-0">
+                <div class="modal-header bg-danger">
+                <h5 class="modal-title text-white" id="exampleModalLabel">Apa itu IMM ?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body p-0">
+                    <iframe class="w-100" height="315" src="https://www.youtube.com/embed/Y9-WheineV0?start=2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- end:modal video -->
 
         <!-- start:page-content -->
 
@@ -429,6 +449,9 @@
                         <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
                             <a class="component-karya-kader d-block" href="/karya.html">
                                 <div class="karya-thumbnail">
+                                    <div class="overlay d-flex justify-content-center">
+                                        <img src="/image/eye.svg" alt="IMM adalah organisasi mahasiswa Islam yang dinaungi oleh Muhammadiyah">
+                                    </div>
                                     <div class="karya-image" style="background-image: url('/image/activity-3.jpg');"></div>
                                 </div>
                                 <div class="karya-text text-truncate">
@@ -436,6 +459,54 @@
                                 </div>
                                 <div class="karya-date">
                                     Jumat, 20 April 2021
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <a class="component-karya-kader d-block" href="/karya.html">
+                                <div class="karya-thumbnail">
+                                    <div class="overlay d-flex justify-content-center">
+                                        <img src="/image/eye.svg" alt="IMM adalah organisasi mahasiswa Islam yang dinaungi oleh Muhammadiyah">
+                                    </div>
+                                    <div class="karya-image" style="background-image: url('/image/carousel-2.jpg');"></div>
+                                </div>
+                                <div class="karya-text text-truncate">
+                                    Jalan-jalan sambil menyusuri Jogja
+                                </div>
+                                <div class="karya-date">
+                                    Kamis, 20 April 2020
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <a class="component-karya-kader d-block" href="/karya.html">
+                                <div class="karya-thumbnail">
+                                    <div class="overlay d-flex justify-content-center">
+                                        <img src="/image/eye.svg" alt="IMM adalah organisasi mahasiswa Islam yang dinaungi oleh Muhammadiyah">
+                                    </div>
+                                    <div class="karya-image" style="background-image: url('/image/carousel-4.jpg');"></div>
+                                </div>
+                                <div class="karya-text text-truncate">
+                                    Kajian: Cinta atau Realita
+                                </div>
+                                <div class="karya-date">
+                                    Minggu, 20 April 2020
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+                            <a class="component-karya-kader d-block" href="/karya.html">
+                                <div class="karya-thumbnail">
+                                    <div class="overlay d-flex justify-content-center">
+                                        <img src="/image/eye.svg" alt="IMM adalah organisasi mahasiswa Islam yang dinaungi oleh Muhammadiyah">
+                                    </div>
+                                    <div class="karya-image" style="background-image: url('/image/activity-2.jpg');"></div>
+                                </div>
+                                <div class="karya-text text-truncate">
+                                    Kopi pahit dengan effect Manis, seperti dia yang kau cintai!
+                                </div>
+                                <div class="karya-date">
+                                    Kamis, 20 April 2020
                                 </div>
                             </a>
                         </div>

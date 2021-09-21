@@ -10833,7 +10833,7 @@ body {
 .navbar-maroon {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  z-index: 100;
+  z-index: 10;
   margin-top: 0;
   background: transparent !important;
 }
@@ -10846,7 +10846,7 @@ body {
 }
 
 .navbar-maroon .navbar-nav {
-  z-index: 100;
+  z-index: 10;
 }
 
 .navbar-maroon .navbar-nav .nav-item {
@@ -10919,6 +10919,13 @@ body {
   background-color: #920000;
   height: 500px;
   width: 50vw;
+}
+
+.videos-maroon img {
+  width: 70px;
+  height: 70px;
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .section-activity h2 {
@@ -11260,16 +11267,29 @@ body {
 
 .section-karya-kader .component-karya-kader .karya-thumbnail {
   width: 100%;
-  height: 150px;
+  height: 300px;
   border-radius: 8px;
   overflow: hidden;
   position: relative;
   z-index: 1;
 }
 
-.section-karya-kader .component-karya-kader .karya-thumbnail:hover .karya-image, .section-karya-kader .component-karya-kader .karya-thumbnail:focus .karya-image {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.section-karya-kader .component-karya-kader .karya-thumbnail:hover .overlay, .section-karya-kader .component-karya-kader .karya-thumbnail:focus .overlay {
+  opacity: 0.75;
+}
+
+.section-karya-kader .component-karya-kader .karya-thumbnail .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: whitesmoke;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.section-karya-kader .component-karya-kader .karya-thumbnail .overlay img {
+  width: 7em;
 }
 
 .section-karya-kader .component-karya-kader .karya-thumbnail .karya-image {
@@ -11279,8 +11299,6 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
 }
 
 .section-karya-kader .component-karya-kader .karya-text {
