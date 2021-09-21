@@ -10894,7 +10894,7 @@ body {
 
 .carousel-maroon {
   width: 100vw;
-  margin: 0 auto;
+  margin: 0;
   padding: 0;
   margin-top: -70px;
 }
@@ -10918,7 +10918,7 @@ body {
   margin-top: -70px;
   background-color: #920000;
   height: 500px;
-  width: 50vw;
+  width: 75vw;
 }
 
 .videos-maroon button {
