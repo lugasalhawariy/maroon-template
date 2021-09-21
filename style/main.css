@@ -10892,8 +10892,66 @@ body {
   transition: background-color 200ms linear;
 }
 
+footer {
+  margin-top: 30px;
+}
+
+footer h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #580000;
+}
+
+footer .item-footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  text-decoration: none;
+}
+
+footer .item-footer:hover {
+  color: blueviolet;
+}
+
+footer .logo-footer {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+footer .logo-footer img {
+  width: 100px;
+  height: 120px;
+}
+
+footer .footer-next {
+  background-color: #920000;
+  height: 70px;
+}
+
 .carousel-maroon {
   width: 100vw;
+  height: 100vh;
   margin: 0;
   padding: 0;
   margin-top: -70px;
@@ -10911,13 +10969,13 @@ body {
 
 .carousel-maroon img {
   width: 100%;
-  height: 500px;
+  height: 100vh;
 }
 
 .videos-maroon {
   margin-top: -70px;
   background-color: #920000;
-  height: 500px;
+  height: 100vh;
   width: 75vw;
 }
 
