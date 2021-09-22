@@ -1,0 +1,9 @@
+@import "../../vendor/bootstrap/scss/bootstrap.scss";
+// utama
+@import "../global";
+@import "../fonts";
+@import "../navbar";
+@import "../footer";
+// component
+@import "../component/animation";
+@import "../component/section-detail";

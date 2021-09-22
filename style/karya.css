@@ -4,6 +4,11 @@
  * Copyright 2011-2020 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+
+ .navbar-maroon {
+   background-color: #920000 !important;
+ }
+
  @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Poppins:wght@300;600&display=swap");
  :root {
    --blue: #007bff;
