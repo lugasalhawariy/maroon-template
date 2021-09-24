@@ -11,7 +11,6 @@
         <!-- css and aos -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
         <link rel="stylesheet" href="style/pages/details.css"/>
-        <link rel="stylesheet" href="vendor/xzoom/dist/xzoom.css">
 
         <!-- slick -->
         <link rel="stylesheet" type="text/css" href="/vendor/slick/slick/slick.css" />
@@ -57,6 +56,7 @@
 
         <!-- start:page-content -->
         <div class="page-content p-0">
+            <!-- start:breadcrumb -->
             <div class="section-breadcrumb container">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
@@ -66,32 +66,127 @@
                     </ol>
                 </nav>
             </div>
+            <!-- end:breadcrumb -->
             <div class="section-details mt-4">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-8">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="card">
-                                        <div class="card-details">
-                                            <!-- start:gallery photos -->
-                                            <div class="gallery">
-                                                <div class="xzoom-container">
-                                                    <img src="/image/activity-3.jpg" id="xzoom-default" alt="" class="xzoom" xoriginal="/image/activity-3.jpg">
-                                                </div>
-                                                <div class="xzoom-thumbs">
-                                                    <a href="/image/carousel-1.jpg">
-                                                        <img src="/image/carousel-1.jpg" class="xzoom-gallery" width="128" xpreview="/image/carousel-1.jpg">
-                                                    </a>
-                                                </div>
-                                            </div>
-                                            <!-- end:gallery photos -->
+                            <div class="card card-left">
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="img-preview">
+                                            <img src="/image/activity-1.jpg" alt="" id="img-preview-active">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="thumbs wrapper-thumbs">
+                                            <img class="thumb-item active" src="/image/activity-1.jpg" alt="">
+                                            <img class="thumb-item" src="/image/activity-2.jpg" alt="">
+                                            <img class="thumb-item" src="/image/activity-3.jpg" alt="">
+                                            <img class="thumb-item" src="/image/activity-4.jpg" alt="">
+                                            <img class="thumb-item" src="/image/carousel-1.jpg" alt="">
+                                            <img class="thumb-item" src="/image/carousel-2.jpg" alt="">
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            <div class="row">
+                                <div class="col-12 card card-right px-4 py-4">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h4>Jadwal</h4>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Tahun</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p>2021</p>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Bulan</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p>Maret</p>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Hari</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p>Rabu</p>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Jam</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p>12:30 - 14:50</p>
+                                        </div>
+                                    </div>
+                                    <hr>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Status</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p class="text-success">Finished</p>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Peserta</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p>104</p>
+                                        </div>
+                                    </div>
+                                    <div class="row d-flex justify-content-between">
+                                        <div class="col-6 text-left">
+                                            <h5>Dana</h5>
+                                        </div>
+                                        <div class="col-6 text-right">
+                                            <p>Rp. <i>3000.000</i></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="row button-pendaftaran">
+                                        <button class="btn btn-primary w-100">
+                                            DAFTAR KEGIATAN
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row about container">
+                        <div class="col-12">
+                            <div class="row"><h1>About</h1></div>
+                            <div class="row">
+                                <p>Distek (Diskusi Teknologi) merupakan diskusi yang membahas tentang perkembangan teknologi yang sedang terjadi di dunia ini. Distek sendiri di adakan oleh salah satu bidang IMM yaitu Bidang Riset Pengembangan Keilmuan (RPK)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row panitia container">
+                        <div class="col-12">
+                            <div class="row"><h1>Panitia</h1></div>
+                            <div class="row">
+                                <p class="text-muted"><i>Tidak ada kepanitiaan</i></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -151,17 +246,17 @@
         <!-- slick js -->
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-        <script src="vendor/xzoom/dist/xzoom.min.js"></script>
-        <script>
-            $(document).ready(function(){
-                $('.xzoom, .xzoom-gallery').xzoom({
-                    zoomWidth: 500,
-                    title: false,
-                    tint: "#333",
-                    Xoffset: 15
+        <script type="text/javascript" src="/vendor/slick/slick/slick.min.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $('.thumbs').slick({
+                    slidesToShow: 3,
+                    centerMode: true,
+                    arrows: true
                 });
             });
         </script>
+        <script src="/script/gallery.js"></script>
     </body>
 
 </html>

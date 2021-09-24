@@ -6,3 +6,10 @@
         transform: translate(20px, 10px) scale(1.1);
     }
 }
+
+@keyframes fadeIn {
+    to {
+        opacity: 0.5;
+    }
+}
+
